@@ -1,0 +1,32 @@
+{
+  "name": "lib-random-array",
+  "version": "0.1.0",
+  "description": "A JavaScript library for generating arrays with various data types. Easily create arrays containing random numbers, strings, boolean values, and objects. Suitable for testing, populating, and creating examples.",
+  "type": "module",
+  "main": "./build/cjs/lib-random-array",
+  "module": "./build/esm/lib-random-array",
+  "types": "build/types/lib-random-array",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/lib-random-array.ts",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neolizee/lib-random-array.git"
+  },
+  "author": "Anton Kulikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neolizee/lib-random-array/issues"
+  },
+  "homepage": "https://github.com/neolizee/lib-random-array#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "nodemon": "^3.1.4",
+    "rollup": "^4.21.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
