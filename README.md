@@ -8,7 +8,7 @@ A JavaScript library for generating arrays with various data types. Easily creat
 npm i lib-random-array
 ```
 
-### Example
+## Example
 
 ```js
 import { UseRandomArray } from "lib-random-array";
@@ -42,7 +42,7 @@ console.log(random.boolean());
 
 - `min` - minimum value. Default is 0
 
-- `max` - maximum value. Default is 0
+- `max` - maximum value. Default is 10
 
 - `unique` - the uniqueness of numeric values. Default is TRUE
 

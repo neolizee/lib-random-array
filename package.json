@@ -1,6 +1,6 @@
 {
   "name": "lib-random-array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JavaScript library for generating arrays with various data types. Easily create arrays containing random numbers, strings, boolean values, and objects. Suitable for testing, populating, and creating examples.",
   "type": "module",
   "main": "./build/cjs/lib-random-array",
