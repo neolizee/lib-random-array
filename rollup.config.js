@@ -8,5 +8,5 @@ export default {
     { dir: "build/min", format: "cjs", plugins: [terser()] },
     { dir: "build/esm", format: "esm" },
   ],
-  plugins: [typescript({ useTsconfigDeclarationDir: true })],
+  plugins: [typescript({ useTsconfigDeclarationDir: true, tsconfig: 'tsconfig.json' })],
 };
