@@ -2,11 +2,11 @@
   "compilerOptions": {
     "outDir": "build/esm",
     "module": "esnext",
-    "target": "esnext",
+    "target": "ESNext",
     "lib": ["esnext", "dom"],
     "declaration": true,
     "declarationDir": "build/types",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "strict": true

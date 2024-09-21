@@ -1,5 +1,6 @@
 export class UseRandomArray {
-  number(length = 10, min = 0, max = 10, unique = true) {
+  number(length: number = 10, min: number = 0, max: number = 10, unique: boolean = true) {
+
     if (!Number.isInteger(length) || length <= 0) {
       throw new Error("The length of the array must be a positive integer!");
     }
